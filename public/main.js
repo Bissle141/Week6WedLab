@@ -6,7 +6,7 @@ btn.addEventListener('click', clickHandler)
 
 const btn2 = document.querySelector('#button2')
 
-const url = 'http://localhost:4000'
+const url = 'http://ec2-54-191-160-182.us-west-2.compute.amazonaws.com'
 
 const getCat = () => {
     axios.get(`${url}/api/cat`)
